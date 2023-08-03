@@ -1,0 +1,98 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+h1{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-weight:bold;
+    color:black;
+}
+h2{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-weight:normal;
+    color:rgb(80, 205, 45);
+}
+p{
+    font-family: "Arial", Helvetica, sans-serif;
+    font-weight:normal;
+    color:rgb(76, 80, 76);
+}
+.col-1{
+    width: 8.3333333%; 
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-2{
+    width: 16.66666667%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-25{
+    width: 20.82%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-3{
+    width: 25%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-4{
+    width: 33.33333%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-45{
+    width: 37.48%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-5{
+    width: 41.66666667%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-6{
+    width: 50%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-7{
+    width: 58.31%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.col-10{
+    width: 83.3%;
+    border: solid 1px red;
+    min-height: 50px;
+}
+.justify-center{
+    justify-content: center;
+}
+.wrap-wrap{
+    flex-wrap: wrap;
+}
+.col{
+    border: solid 1px red;
+    min-height: 40px;
+}
+.header-top,.info,.belief,.collab{
+    background-color:white;
+    min-height: 80px;
+}
+.why-measi,.courses,.stud-work,.methodologies{
+    background-color: #9ca5a8;
+    min-height: 500px;
+}
+.contact{
+    background-color:rgb(10, 202, 255);
+    min-height: 80px;
+}
+.copyright{
+    background-color:rgb(33, 31, 31);
+    min-height: 80px;
+}

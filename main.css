@@ -80,12 +80,16 @@ p{
     border: solid 1px red;
     min-height: 40px;
 }
-.header-top,.info,.belief,.collab{
+.header-top{
+    background-color:white;
+    min-height: 80px;
+}
+.info,.belief,.collab{
     background-color:white;
     min-height: 80px;
 }
 .why-measi,.courses,.stud-work,.methodologies{
-    background-color: #9ca5a8;
+    background-color: #e5eef3;
     min-height: 500px;
 }
 .contact{

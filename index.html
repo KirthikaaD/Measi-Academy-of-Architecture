@@ -6,25 +6,134 @@
     <title>MEASI Academy of Architecture</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
 </head>
 <body>
-    <div class = "header-top ">
-        <div class ="container">
-            <div class = "row justify-center">
-                <div class = "col-3">logo</div>
-                <div class = "col-1">Home</div>
-                <div class = "col-1">About</div>
-                <div class = "col-1">Academics</div>
-                <div class = "col-1">Activities</div>
-                <div class = "col-1">Fees Payment</div>
-                <div class = "col-1">Contact</div>
+    <div class = "header-top nav-underline">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="https://measiarch.in/wp-content/uploads/2022/05/MAAWeblogo-300x69-1.jpg"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class = "row justify-content-evenly align-items-end">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">MEASI Trust</a></li>
+                          <li><a class="dropdown-item" href="#">Architecture</a></li>
+                          <li><a class="dropdown-item" href="#">Founder Director</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Academics
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Courses</a></li>
+                          <li><a class="dropdown-item" href="#">Infrastructure & Facilities</a></li>
+                          <li><a class="dropdown-item" href="#">Mandatory Disclosure</a></li>
+                          <li><a class="dropdown-item" href="#">Faculty</a></li>
+                          <li><a class="dropdown-item" href="#">Staff</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Activities
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Students Work</a></li>
+                          <li><a class="dropdown-item" href="#">Students Activities</a></li>
+                          <li><a class="dropdown-item" href="#">Events</a></li>
+                          <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                          <li><a class="dropdown-item" href="#">Anti-Ragging</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Fees Payment</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Go</button>
+                    </form>
+                  </div>
+                </div>
             </div>
+        </nav>
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="light">
+            <div class="bg-dark p-4">
+              <h5 class="text-body-emphasis h4">Collapsed content</h5>
+              <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+            </div>
+            <nav class="navbar navbar-dark bg-light">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
         </div>
+    </div>
+    <div class ="logo">
+        <div id="carouselExampleIndicators" class="carousel slide main-carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://measiarch.in/wp-content/uploads/2022/05/Library-2.jpg" class="d-block w-100">
+                    <div class="col carousel-caption d-none d-md-block align-self-center">
+                        <h1>Welcome to MEASI</h1>
+                        <p>One of the Top Architecture College in India</p>
+                    </div>
+              </div>  
+              <div class="carousel-item">
+                <img src="https://measiarch.in/wp-content/uploads/2022/05/3W1A0887_2B.jpg" class="d-block w-100">
+                <div class="col carousel-caption d-none d-md-block align-self-center">
+                    <h1>Top Rank Holders</h1>
+                    <p>Rank holders at University level
+                    </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://measiarch.in/wp-content/uploads/2022/05/3W1A0797.jpg" class="d-block w-100">
+                <div class="col carousel-caption d-none d-md-block align-self-center">
+                    <h1>Excellent Result</h1>
+                    <p>Passing Out Top Architects</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="news-upd">
+        <marquee behavior="scroll" direction="left">B.ARCH& M.ARCH APPLICATIONS FOR THE YEAR 2023-24 ARE AVAILABLE NOW AT OFFICE-------------DEAR APPLICANTS! KINDLY SEND YOUR 3RD NATA RESULT TO admin@measiarch.in</marquee>
     </div>
     <div class = "why-measi">
         <div class ="container">
             <div class = "row">
-                <div class = "col-5">image</div>
+              <div class = "col-5"><img src="https://measiarch.in/wp-content/uploads/2022/05/why-choose-us-1.png"></div>
                 <div class = "col-7">
                     <div class ="container">
                         <h2>Why should you choose MEASI?</h2><br>
@@ -49,7 +158,7 @@
                             </div>
                        </div>
                     </div>
-                </div>
+              </div>
             </div>
         </div>
     </div>

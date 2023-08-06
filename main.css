@@ -5,19 +5,48 @@
 .row{
     display: flex;
 }
-.why-measi h1{
+.courses h1,.why-measi h1, .belief h1{
     font-weight:bolder;
     color:black;
 }
-.why-measi h2{
+.methodologies h1, .Collab h1{
+    font-weight:bolder;
+    color:black;
+    font-size: 3em;
+}
+.why-measi h2,.methodologies h2{
     color: #71AE0E;
     font-family: "Poppins", Sans-serif;
     font-size: 23px;
     font-weight: 400;
 }
-.why-measi p{
-    font-weight: normal;
-    color: #616366;
+.why-measi p, .methodologies p{
+    color: #555555;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.belief, .Collab{
+    padding-top: 4em;
+    padding-bottom:4em;
+    padding-left: 8em;
+    padding-right: 8em;
+    box-sizing: border-box;
+}
+.belief img{
+    height: auto;
+    max-width: 100%;
+}
+.col-6 h2{
+    font-weight: bold;
+    color: black;
 }
 p{
     font-family: "Arial", Helvetica, sans-serif;
@@ -25,53 +54,35 @@ p{
     color:rgb(76, 80, 76);
 }
 .col-1{
-    width: 8.3333333%; 
-    border: solid 1px red;
+    width: 8.3333333%;
     min-height: 50px;
 }
 .col-2{
     width: 16.66666667%;
-    border: solid 1px red;
-    min-height: 50px;
-}
-.col-25{
-    width: 20.82%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-3{
     width: 25%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-4{
     width: 33.33333%;
-    border: solid 1px red;
-    min-height: 50px;
-}
-.col-45{
-    width: 37.48%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-5{
     width: 41.66666667%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-6{
     width: 50%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-7{
     width: 58.31%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .col-10{
     width: 83.3%;
-    border: solid 1px red;
     min-height: 50px;
 }
 .justify-center{
@@ -87,27 +98,38 @@ p{
     background-color:white;
     min-height: 80px;
 }
-.info,.belief,.collab{
+.belief,.courses,.collab{
     background-color:white;
-    min-height: 80px;
+    padding-top: 4em;
+    min-height: 300px;
 }
-.why-measi,.courses,.stud-work,.methodologies{
+.why-measi,.stud-work,.info{
     background-color:#e6e9e5;
     min-height: 500px;
+    padding-top: 4em;
+    padding-bottom:4em;
+    padding-left: 8em;
+    padding-right: 8em;
+    box-sizing: border-box;
+
 }
 .contact{
     background-color:#0083E1;
-    min-height: 80px;
+    min-height: 120px;
 }
 .copyright{
     background-color:rgb(33, 31, 31);
     min-height: 80px;
+    font-style: normal;
+    color:white;
 }
-.news-upd{
-    background-color: #007acc;
+.news-upd marquee{
+    background-color: hsl(212, 87%, 47%);
     min-height:60px;
     font-style: bold;
     color: #e5eef3;
+    align-items: center;
+    padding-top:1em;
 }
 .main-carousel h1{
     font-family:Arial, Helvetica, sans-serif;
@@ -128,5 +150,29 @@ p{
     top:155px;
 }
 .why-measi img{
-    
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 4em;
+    padding-bottom:4em ;
+    width:100%;
+}
+.courses h2{
+    font-weight: normal;
+    font-size: 23px;
+    color:#71AE0E;
+}
+.col-4 h2{
+    font-weight:bold;
+    color: black;
+}
+.methodologies{
+    text-align: center;
+    background-color:#e6e9e5;
+    min-height: 100px;
+    padding-top: 4em;
+    padding-bottom:4em;
+    padding-left: 8em;
+    padding-right: 8em;
+    box-sizing: border-box;
+ 
 }
